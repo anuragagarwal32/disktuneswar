@@ -1,0 +1,39 @@
+html{
+    overflow-y: auto;
+    height:1000px;
+}
+.product{
+    position:absolute;
+    padding:5px;
+    left: 30%;
+    top:280px;
+    width:480px;
+}
+.songName{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+}
+.productImage{
+    position:relative;
+    height: 350px;
+    width:480px;
+    margin:2px;
+}
+table{
+    padding:5px;
+    width:100%;
+}
+.fCol{
+    color:#e42eb5;
+}
+.price{
+    text-align: center;
+    font-family: Bell MT;
+    font-size: 50px;
+    color: #f5812f;
+}
+.buyNow{
+    position:relative;
+    text-align: center;
+}

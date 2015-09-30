@@ -1,0 +1,128 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+   <!--
+    <constant name="struts.action.extension" value="html"/>
+    Rename all .action to .html  value="" means no extension
+    -->
+    <package name="default" extends="struts-default">
+        
+        <action name="loginAction" class="com.project.Login">    
+            <result name="Success">dashboard.jsp</result>
+            <result name="Admin">dashboardadmin.jsp</result>
+            <result name="input">login.jsp</result>
+            <result name="Login">dashboard.jsp</result>
+            <result name="Fail">login.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="signOut" class="com.project.SignOut">
+            <result name="Success">index.jsp</result>
+            <result name="Fail">error.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="signUpAction" class="com.project.SignUp">
+            <result name="Success">dashboard.jsp</result>
+            <result name="input">SignUp.jsp</result>
+            <result name="Fail">SignUp.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        
+        <action name="mulaAction" class="com.project.MufaInsert">
+            <result name="Success">Mula.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="addStock" class="com.project.AddStock">
+            <result name="Success">AddStock.jsp</result>
+            <result name="input">AddStock.jsp</result>
+            <result name="Fail">AddStock.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="deleteStock" class="com.project.DeleteStock">
+            <result name="Success">deleteStock.jsp</result>
+            <result name="input">deleteStock.jsp</result>
+            <result name="Fail">deleteStock.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="DeleteOrder" class="com.project.DeleteOrder">
+            <result name="Success">Thankyou.jsp</result>
+            <result name="input">DeleteOrder.jsp</result>
+            <result name="Fail">DeleteOrder.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>    
+        <action name="checkPlacedorders" class="com.project.CheckPlacedOrders">
+            <result name="Success">checkPlacedOrders.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="ViewAllStock" class="com.project.ViewAllStock">
+            <result name="Success">ViewAllStock.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="productView" class="com.project.productView">
+            <result name="Success">index.jsp</result>
+            <result name="Fail">error.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="search" class="com.project.Search">
+            <result name="Success">search.jsp</result>
+            <result name="Fail">search.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="addToCart" class="com.project.Cart">
+            <result name="Success" type="redirect">${url}</result>
+            <result name="Fail">../error.jsp</result>
+            <result name="Error">../error.jsp</result>
+        </action>
+        <action name="cartView" class="com.project.CartView">
+            <result name="Success">/cart.jsp</result>
+            <result name="Fail">error.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="updateCart" class="com.project.CartUpdate">
+            <result name="Success">cart.jsp</result>
+            <result name="Fail">cart.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="deleteCart" class="com.project.CartDelete">
+            <result name="Success">cart.jsp</result>
+            <result name="Fail">cart.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="placeOrder" class="com.project.CartPlaceOrder">
+            <result name="Success">Thankyou.jsp</result>
+            <result name="Fail">cart.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="orderView" class="com.project.OrderView">
+            <result name="Success">orders.jsp</result>
+            <result name="Fail">error.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="orderViewParticular" class="com.project.OrderViewParticular">
+            <result name="Success">orderViewParticular.jsp</result>
+            <result name="Fail">error.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="addBal" class="com.project.AddBal">
+            <result name="Success">dashboard.jsp</result>
+            <result name="Error">error.jsp</result>
+        </action>
+        <action name="showAddStock">
+            <result>AddStock.jsp</result>
+        </action>
+        <action name="showDeleteStock">
+            <result>deleteStock.jsp</result>
+        </action>
+        <action name="showMula">
+            <result>Mula.jsp</result>
+        </action>
+        <action name="showcheckPlacedOrders">
+            <result>checkPlacedOrders.jsp</result>
+        </action>
+        <action name="showOrderStatus">
+            <result>OrderStatus.jsp</result>
+        </action>
+    </package>
+</struts>

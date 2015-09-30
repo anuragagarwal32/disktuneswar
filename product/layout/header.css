@@ -1,0 +1,67 @@
+html{
+	background: black;	
+	color:white;
+	padding:0px;
+	margin:0px;
+}
+.logoImage{
+    position:absolute;
+    left:20px;
+    width:100px;
+    height:90px;
+    margin:2px;
+}
+.disk{
+	position:absolute;
+	left:130px;
+	top:12px;
+        margin-left: 3px;
+        font-family: Hobo Std;
+        font-size: 80px;
+        text-align: justify;
+        letter-spacing: 3px;
+}
+.tunes{
+    position:absolute;
+    left:330px;
+    top:22px;
+    padding:2px;
+    font-size: 40px;
+    font-family: Colonna MT;
+    background: #8ce306;
+    color: #891f76;
+    border-radius: 8px;
+    text-wrap: initial;
+    
+}
+.search{
+	
+        position:absolute;
+	left:46.15%;
+        top:40px;
+        padding:10px;
+}
+.submitButton{
+        width:40px;
+	height:25px;
+        position:relative;
+        top:8px;
+        padding-left: 8px;
+}
+.toolbar{
+    position:absolute;
+    top:105px;
+    left:0px;
+}
+.tagline{
+	position:absolute;
+	left: 33.8%;
+	top:150px;
+	height: 30px;
+	padding: 2px;
+	margin: 5px;
+        font-family: Chiller;
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: 2px;
+}

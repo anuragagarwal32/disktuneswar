@@ -1,0 +1,201 @@
+html{
+    overflow-y: auto;
+    overflow-x: auto;
+    height:1000px;
+}
+.bodyTag{
+    position:absolute;
+    padding:5px;
+    left:30%;
+    top:280px;
+    width:480px;
+}
+.heading{
+    position:absolute;
+    top:270px;
+    left: 30%;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+}
+table{
+    padding:5px;
+    width: 100%;
+}
+.fCol{
+    color:#e42eb5;
+}
+.submitButton{
+    position:relative;
+    
+}
+.userList{
+    position:relative;
+    margin-left:0.2px;
+    margin-right:80%;
+    top :300px;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    border:solid 2px;
+    border-color: white;
+    padding:5px;
+}
+.userList li{
+    margin-left: 4px;
+    list-style: none;
+}
+.userList a{
+    text-decoration: none;
+}
+.welcome{
+    margin-right: 2px;
+    text-align: right;
+    font-family: papyrus;
+    font-size: 25px;
+}
+.signOutButton{
+    position: absolute;
+    margin: 2px;
+    top:50px;
+    left:92%; 
+}
+.signUpButton{
+    position: absolute;
+    margin: 2px;
+    top:20px;
+    left: 85%;
+}
+.logInButton{
+    position: absolute;
+    margin: 2px;
+    top:20px;
+    left: 92%;
+}
+.orderStyle{
+    position:absolute;
+    left: 45%;
+    top: 45%;
+    
+}
+.orderHeading{
+    font-family: Broadway;
+    font-size: 50px;
+    color: mediumspringgreen;
+}
+.orderDetails{
+    font-size: 20px;
+    font-family: Comic Sans MS;
+   
+    }
+.status{
+    font-family:Bradley Hand ITC;
+    font-size: 30px;
+    color:aqua;
+    font-weight: bold;
+        
+    }
+.hrColor{
+    position: relative;
+    border-color:lightpink;
+    width: 100%;
+    border-width: 3px;
+}
+.cartBody{ 
+    margin-top: 40px;
+}
+.headingCart{
+    color:#e42eb5;
+    font-family: Georgia;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+.loginIdOrder{
+   position: absolute;
+   left: 42%;
+   top: 370px;
+   font-size: 27px;
+}
+.songNameFinal{
+                position: relative;
+    top: -10px;
+    font-size: 35px;
+    color: #8efd39;
+    font-family: Hobo Std;
+            }
+.songName{
+    position: relative;
+    top: -10px;
+    font-size: 35px;
+    color: #8efd39;
+    font-family: Hobo Std;
+}
+
+.quantity{
+    position: relative;
+    left: 520px;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+.priceColor{
+    font-size: 30px;
+    font-family: Adobe Garamond Pro Bold;
+    position: relative;
+    padding-left: 45%;
+}
+.imageSize{
+    position: absolute;
+    left:350px;
+    width: 150px;
+    height: 150px;
+}
+hr{
+    width: 50%;
+    border-color: coral;
+    border-style: dashed;
+}
+.updateForm{
+    position: relative;
+    top: -30px;
+    left: 100px;
+}
+.deleteForm{
+    position: relative;
+    left: 59.8%;
+    top: -40px;
+}
+.total{
+    color: #ffe900;
+    position: absolute;
+    font-family: Hobo Std;
+    font-size: 30px;
+    left: 53%;
+}
+.cartEmpty{
+    position:relative;
+    left: 45%;
+    font-family: Times New Roman;
+    font-size: 30px;
+    color: #ffe500;
+}
+.productTable{
+    position: absolute;
+    top: 350px;
+    left: 23%;
+    width: 600px;
+}
+.productTable td{
+    padding: 20px;
+    text-align: center;
+    
+}
+.productTable a{
+    color: aqua;
+    font-size: 25px;
+}
+.pageNumberTable{
+    position: absolute;
+    top: 1600px;
+    left: 23%;
+}
